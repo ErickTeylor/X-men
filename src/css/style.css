@@ -1,0 +1,81 @@
+body {
+    background: #000;
+}
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.logo {
+    top: 18px;
+}
+main {
+    display: flex;
+}
+.left {
+    margin-left: 120px;
+}
+.title {
+    width: 585px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0 81px;
+    justify-content: center;
+    border-bottom: 2px solid #47F4FF;
+}
+.title h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 6px;
+}
+.characters {
+    display: flex;
+    width: 585px;
+    height: 485px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.character-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.rigth {
+    margin-left: 57px;
+}
+.title-2 {
+    width: 483px;
+    height: 32px;
+    padding: 0 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid #47F4FF;
+}
+.title-2 h1 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 6px;
+}
+.description {
+    display: flex;
+    width: 483px;
+    height: 96px;
+    padding: 20px 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.description p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
